@@ -1,1 +1,1 @@
-# newsggregator-python-webscraping
+# newsaggregator-python-webscraping
