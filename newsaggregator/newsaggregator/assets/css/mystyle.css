@@ -1,0 +1,16 @@
+body {
+    padding: 25px;
+    background-color: rgba(176, 233, 138, 0.86);
+    color: black;
+    font-size: 25px;
+  }
+  /* class selector for dark mode*/
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.jumbotron
+{
+    background-color: rgb(229, 22, 229);
+}
