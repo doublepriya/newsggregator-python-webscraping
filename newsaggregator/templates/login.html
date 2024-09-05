@@ -1,0 +1,71 @@
+<html>
+<style type="text/css">
+    label{
+        width: 100px;
+        display: inline-block;
+        margin: 4px;
+    }
+    #form{
+        border-radius: 10px;
+        background-color: rgb(122, 148, 233);
+        color: rgb(252, 255, 80);
+        width: 290px;
+        padding: 4px;
+    }
+    h2{
+        text-align:center;
+    }
+</style>
+<body>
+    <div id="forms">
+</body>
+<body style=background-color:lightpink>
+    <h1>USER REGISTRATION FORM:</h1>
+<forms>
+<label><B>NAME:</B></label>
+<input type="text" size="40" ng-model="name">
+<br>
+<label>ADDRESS:</label>
+<input type="text"size="40" ng-model="add">
+<br>
+<label>E-MAIL:</label>
+<input type="text" size="40" ng-model="email">
+<br>
+
+
+<html>
+<head>
+<div class="container">
+<form action="/action_page.php">
+<label for="username">Username</label>
+<input type="text" id="usrname" name="usrname" required><br>
+<label for="psw">Password</label>
+<input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+<input type="submit" value="Submit">
+</form>
+</div>
+</head>
+</html>
+
+<label>Phone:</label>
+<input type="text" size="40"ng-model="num">
+<br>
+<label>Designation:</label>
+<select name="Designation" id="designation">
+<option value="student">student</option>
+<option value="media proffesional">media proffesional</option>
+<option value="other">other</option>
+</select>
+<br>
+<label>
+Comments(if any):
+</label>
+<input type="text" size="40" name="com">
+<br>
+<br>
+<p class="m-0  text-black"> <span style="color: rgba(142, 75, 75, 0.75);">New to onion.com?</span></p>
+<a href="./homestatic.html">go home page</a>
+</forms>
+</div>
+</body>
+</html>
